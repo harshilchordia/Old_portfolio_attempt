@@ -2,15 +2,15 @@
 .home-page {
     .text-zone {
         position: absolute;
-        left: 170px;
+        // left: 170px;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        // width: 40%;
         max-height: 90%;
     }
     h1 {
         color: $font_1;
-        font-size: 60px;
+        font-size: 3.5vmax;
         margin: 0;
         font-family: 'Coolvetica Rg', 'La Belle Aurore';
         font-weight: 400;
@@ -30,14 +30,14 @@
             font-family: 'La Belle Aurore';
             color: $bg_text;
             font-size: 18px;
-            position: absolute;
-            margin-top: 35px;
+            position: relative;
+            margin-top: 3.4vh;
             margin-left: 20px;
             animation: fadeIn 1s 1s backwards;
             opacity: 0.6;
         }
         img {
-            width: 35px;
+            width: 2.3vmax;
             margin-left: 15px;
             margin-right: 2px;
             height: auto;
@@ -49,7 +49,7 @@
         color: $font_2;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 1.1vmax;
         font-family: 'Coolvetica Rg';
         letter-spacing: 3px;
         animation: fadeIn 4s 1.4s backwards;
